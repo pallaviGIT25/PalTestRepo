@@ -1428,6 +1428,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PalEmployee__c.palempID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PalEmployee__c.palempName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1588,6 +1598,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PalEmployee__c-PalEmployee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
@@ -1871,6 +1884,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>PalEmployee__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Pricebook2</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -1951,6 +1973,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>PalEmployee__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>

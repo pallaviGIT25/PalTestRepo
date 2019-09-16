@@ -654,6 +654,8 @@
         <members>OrderItem.ServiceDate</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
+        <members>PalEmployee__c.palempID__c</members>
+        <members>PalEmployee__c.palempName__c</members>
         <members>PartnerRole.ReverseRole</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
@@ -817,6 +819,7 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>OrgDeleteRequest</members>
+        <members>PalEmployee__c</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
@@ -841,6 +844,14 @@
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>PalEmployee__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>PalEmployee__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -919,6 +930,7 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>PalEmployee__c-PalEmployee Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
@@ -986,6 +998,7 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>PalEmployee__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Scorecard.AllScorecards</members>
