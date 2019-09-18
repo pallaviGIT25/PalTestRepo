@@ -89,5 +89,12 @@
     <pluralLabel>PalEmployees</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>EmpIDValRule</fullName>
+        <active>true</active>
+        <description>Add a validation rule for empID</description>
+        <errorConditionFormula>palempID__c  &gt;= 1</errorConditionFormula>
+        <errorMessage>Employee ID should be greater than equal to 1</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
