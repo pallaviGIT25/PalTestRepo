@@ -89,5 +89,19 @@
     <pluralLabel>PalEmployees</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>EmpIDValRule</fullName>
+        <active>true</active>
+        <description>Add a validation rule for empID</description>
+        <errorConditionFormula>palempID__c  &gt;= 1</errorConditionFormula>
+        <errorMessage>Employee ID should be greater than equal to 1</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PalEmpName_Val_Rule</fullName>
+        <active>true</active>
+        <description>The Employee Name should not be NULL</description>
+        <errorConditionFormula>palempName__c   &lt;&gt;   &quot;&quot;</errorConditionFormula>
+        <errorMessage>Employee Name cannot be NULL</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

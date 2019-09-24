@@ -1220,6 +1220,11 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>PalEmployee__c.EmpIDValRule</members>
+        <members>PalEmployee__c.PalEmpName_Val_Rule</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
