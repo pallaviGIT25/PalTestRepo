@@ -1221,6 +1221,7 @@
     </types>
     <types>
         <members>PalEmployee__c.EmpIDValRule</members>
+        <members>PalEmployee__c.PalEmpName_Val_Rule</members>
         <name>ValidationRule</name>
     </types>
     <types>
