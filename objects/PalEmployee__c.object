@@ -55,7 +55,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>palempID__c</fullName>
-        <description>custom field employee ID</description>
+        <description>custom field employee ID should be greater than equal to one</description>
         <externalId>false</externalId>
         <label>palempID</label>
         <precision>18</precision>
